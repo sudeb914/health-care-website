@@ -1,0 +1,21 @@
+.icon {
+    font-size: 30px;
+    
+    color: #fff;
+}
+
+.bg-testimonial {
+    background: #3DC5DF;
+}
+.bg-testimonial h2 {
+    color: #fff;
+}
+.bg-testimonial p {
+    color: #fff;
+}
+
+.bg-testimonial-cng {
+    background: #23bfdf;
+    color: #fff;
+}
+

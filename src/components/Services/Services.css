@@ -1,0 +1,37 @@
+.services-bg {
+    background-image:linear-gradient(#ffffffcc,#ffffffd2),url('https://i.ibb.co/kDjbc4T/sub-bnr-bg.jpg');
+    
+    height: 400px;
+}
+
+
+.services_head{
+    margin: 0px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #29ccec;
+    text-transform: uppercase;
+}
+
+.services-p {
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.btn {
+    background: #3dc5df;
+    padding: 6px 22px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+
+
+}
+
+.btn:hover{
+    background: #1597b1d5;
+    color: #fff;
+}
