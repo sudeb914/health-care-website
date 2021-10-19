@@ -2,7 +2,7 @@ import { faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Form, FormControl, InputGroup, Row } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { NavLink, } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import GooglePNG from './../../images/google.png'
 import FcaebookPNG from './../../images/facebook.png'
@@ -10,7 +10,11 @@ import GithubPNG from './../../images/github.png'
 import './Login.css'
 
 const Login = () => {
+  
     const {signInWithGoogle,signInWithGithub,signInWithFacebook,signInWithEmail,error,getEmail,getPassword} = useAuth();
+    
+
+  
     return (
         
         <div className="text-center my-4">

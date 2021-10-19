@@ -48,3 +48,12 @@
     font-weight: 600;
     /* font-weight: 65px; */
 }
+
+@media only screen and (max-width:688px) {
+
+    .services-bg {
+        width: 480px;
+    }
+   
+        
+}

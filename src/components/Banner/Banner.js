@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import BannerBG from './../../images/slider-1.jpg'
 import './Banner.css'
 const Banner = () => {
@@ -18,7 +19,9 @@ const Banner = () => {
               claram
             </p>
            <div className="text-center">
+           <NavLink to="/services">
            <button className="show-off">Service</button>
+           </NavLink>
            </div>
             </div>
           </div>

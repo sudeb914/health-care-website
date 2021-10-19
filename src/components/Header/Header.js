@@ -14,7 +14,9 @@ const Header = () => {
       <Navbar className="nav-bg" expand="lg">
         <Container>
           <Navbar.Brand to="/home">
-            <img src={logo} alt="logo" />
+           <NavLink to="/home">
+           <img src={logo} alt="logo" />
+           </NavLink>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

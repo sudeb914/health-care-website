@@ -35,3 +35,24 @@
     background: #1597b1d5;
     color: #fff;
 }
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 6px;
+}
+
+
+@media only screen and (max-width:688px) {
+    
+.service-container {
+    
+    grid-template-columns: repeat(1,1fr);
+   
+}
+.services-bg{
+    width: 404px;
+}
+
+    
+}

@@ -26,3 +26,16 @@
     color: #3DC5DF;
     
 }
+
+
+
+@media only screen and (max-width:688px) {
+
+    .banner-half-bg{
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    
+   
+        
+}

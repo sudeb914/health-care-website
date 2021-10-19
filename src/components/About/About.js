@@ -79,23 +79,23 @@ const About = () => {
             <br />
             <br />
 
-            <div className="row">
-                <div className="col-md-2">
+            <div className="row ">
+                <div className="col-md-2 text-center">
                     <img src="https://i.ibb.co/MNmKB9k/doc-img-2.jpg" alt="" />
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 text-center">
                     <img src="https://i.ibb.co/CVX5FGS/doc-img-3.jpg" alt="" />
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 text-center">
                     <img src="https://i.ibb.co/MNmKB9k/doc-img-2.jpg" alt="" />
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 text-center">
                     <img src="https://i.ibb.co/bQrTS8q/doc-img-4.jpg" alt="" />
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 text-center">
                     <img src="https://i.ibb.co/MR8mVZ7/doc-img-5.jpg" alt="" />
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 text-center">
                     <img src="https://i.ibb.co/CVX5FGS/doc-img-3.jpg" alt="" />
                 </div>
             </div>

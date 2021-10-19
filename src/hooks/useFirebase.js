@@ -30,6 +30,8 @@ const useFirebase = () => {
   const [error, setError] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [services,setServices] = useState([]);
+  const [loading,setLoading] = useState(true);
 
   //google sign in
   const signInWithGoogle = () => {
@@ -37,6 +39,7 @@ const useFirebase = () => {
       .then((result) => {
         setUser(result.user);
       })
+      .finally(() => setLoading(false))
       .catch((error) => {
         setError(error.message);
       });
@@ -46,15 +49,20 @@ const useFirebase = () => {
   const signInWithGithub = () => {
     signInWithPopup(auth, githubProvider).then((result) => {
       setUser(result.user);
-    });
+    })
+    .finally(() => setLoading(false))
+    ;
   };
 
   //facebook sign in
 
   const signInWithFacebook = () => {
-    signInWithPopup(auth, facebookProvider).then((result) => {
-      setUser(result.user);
-    });
+    signInWithPopup(auth, facebookProvider)
+    .then((result) => {
+      setUser(result.user)
+      
+    })
+    .finally(() => setLoading(false));;
   };
 
   // get email
@@ -106,11 +114,26 @@ const useFirebase = () => {
   useEffect(() => {
     const unSubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-        setUser("sign in");
+        setUser(user);
       }
+      else{
+        setUser({});
+      }
+      setLoading(false);
     });
     return () => unSubscribe;
   }, []);
+
+
+  useEffect(()=>{
+    fetch("./fakeData.json")
+    .then(res => res.json())
+    .then(data => setServices(data))
+
+  },[])
+
+
+
 
   return {
     signInWithGoogle,
@@ -123,6 +146,8 @@ const useFirebase = () => {
     getEmail,
     getPassword,
     signUp,
+    services,
+    loading
   };
 };
 
