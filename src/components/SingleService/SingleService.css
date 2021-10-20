@@ -8,7 +8,9 @@
 
 @media only screen and (max-width:688px) {
 
-   
+    .single-card {
+        margin: 0 auto;
+    }
     
    
         

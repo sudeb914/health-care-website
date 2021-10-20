@@ -28,7 +28,7 @@ and treatment betterly
 
 ### React
 
-### CSS
+### CSS framework with a component library
 
 ### Firebase
 

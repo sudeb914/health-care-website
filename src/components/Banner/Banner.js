@@ -13,10 +13,7 @@ const Banner = () => {
             <h1 className="text-center main-heading">We Care <br /> About Your <br />
              Health</h1>
             <p className="text-center">
-              Claritas est etiam processus dynamicus, qui sequitur mutationem <br />
-              consuetudium lectorum. Mirum est notare quam littera gothica, quam <br />
-              nunc putamus ui sequitur mutationem consuetudium lectorum. parum <br />
-              claram
+            Health care (also health-care or healthcare) is the maintenance or improvement of health via the prevention, diagnosis, treatment, recovery, or cure of disease, illness, injury, and other physical and mental impairments in people. 
             </p>
            <div className="text-center">
            <NavLink to="/services">

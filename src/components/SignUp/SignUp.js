@@ -48,7 +48,7 @@ const SignUp = () => {
                     <FontAwesomeIcon icon={faLock}></FontAwesomeIcon>
                   </InputGroup.Text>
                   <FormControl
-                    onClick={getPassword}
+                    onBlur={getPassword}
                     type="password"
                     autoComplete="current-password"
                     id="password"

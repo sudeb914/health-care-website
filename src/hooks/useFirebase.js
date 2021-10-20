@@ -68,10 +68,12 @@ const useFirebase = () => {
   // get email
   const getEmail = (e) => {
     setEmail(e?.target?.value);
+    console.log(e?.target?.value);
   };
   // get password
   const getPassword = (e) => {
     setPassword(e?.target?.value);
+    console.log(e?.target?.value);
   };
 
   //email sign in
@@ -86,11 +88,14 @@ const useFirebase = () => {
   //sign up
 
   const signUp = (e) => {
+    
+   
+
     e.preventDefault();
-    console.log(email,password);
+    // console.log(email,password);
     createUserWithEmailAndPassword(auth, email, password)
     .then((result) => {
-      alert("user's has been created")
+      setUser(result.user);
     }).catch(error => {
       setError(error.message)
     })

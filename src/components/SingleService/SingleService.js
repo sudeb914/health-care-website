@@ -10,7 +10,8 @@ const SingleService = (props) => {
     return (
         <div>
             
-  <div className="m-2">
+ 
+  <div className="m-2 text-center">
   <div class="card single-card">
     <img className="img-service" src={img} className="w-50" class="card-img-top" alt="..."/>
     <div class="card-body">
@@ -24,6 +25,7 @@ const SingleService = (props) => {
     
   </div>
   </div>
+  
   
   
 </div>

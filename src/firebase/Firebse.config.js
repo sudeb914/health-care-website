@@ -1,3 +1,4 @@
+
 const firebaseConfig = {
     apiKey: "AIzaSyA7NxKz2jAxbNfurNaDjkn7LqcVyOIgKUc",
     authDomain: "midicle-site.firebaseapp.com",
@@ -8,3 +9,4 @@ const firebaseConfig = {
   };
 
   export default firebaseConfig;
+

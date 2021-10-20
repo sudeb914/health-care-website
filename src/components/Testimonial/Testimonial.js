@@ -17,22 +17,19 @@ const Testimonial = () => {
               <div className="col-md-4">
                 <h5 className=" fw-bold">Medical Counseling</h5>
                 <p className="text-muted">
-                  cum sociis natoque penatibus et magnis dis parturient
-                  montesmus. Nunc finibus sit amet gravida.
+                Medical Counselling Committee (MCC) · First slide. PG Counselling for 50% All India Quota seats of all states except 
                 </p>
               </div>
               <div className="col-md-4">
                 <h5 className="fw-bold">Professional services</h5>
                 <p className="text-muted">
-                  cum sociis natoque penatibus et magnis dis parturient
-                  montesmus. Nunc finibus sit amet gravida.
+                Professional services are occupations in the service sector requiring special training in the arts or sciences. 
                 </p>
               </div>
               <div className="col-md-4">
                 <h5 className="fw-bold">24 Hours service</h5>
                 <p className="text-muted">
-                  cum sociis natoque penatibus et magnis dis parturient
-                  montesmus. Nunc finibus sit amet gravida.
+                ealth care systems are organizations established to meet the health needs of targeted populations. 
                 </p>
               </div>
             </div>
@@ -40,22 +37,19 @@ const Testimonial = () => {
               <div className="col-md-4">
                 <h5 className="fw-bold">Qualified medical facilities</h5>
                 <p className="text-muted">
-                  cum sociis natoque penatibus et magnis dis parturient
-                  montesmus. Nunc finibus sit amet gravida.
+                An efficient health care system can contribute to a significant part of a country's economy, development, and industrialization. 
                 </p>
               </div>
               <div className="col-md-4">
                 <h5 className="fw-bold">Top level doctors</h5>
                 <p className="text-muted">
-                  cum sociis natoque penatibus et magnis dis parturient
-                  montesmus. Nunc finibus sit amet gravida.
+                An example of this was the worldwide eradication of smallpox in 1980, declared by the WHO as the first disease in human history to be
                 </p>
               </div>
               <div className="col-md-4">
                 <h5 className="fw-bold">Dedicated patient care</h5>
                 <p className="text-muted">
-                  cum sociis natoque penatibus et magnis dis parturient
-                  montesmus. Nunc finibus sit amet gravida.
+                reliable information on which to base decisions and policies, and well-maintained health facilities to deliver quality medicines and technologies.
                 </p>
               </div>
             </div>
@@ -72,21 +66,21 @@ const Testimonial = () => {
                     <div className="text-center p-5">
                    <span className="icon"> <FontAwesomeIcon icon={faHeart} /></span>
                         <h2>Heart Rate</h2>
-                        <p>Duis autem vel eum iriure dolor in hendr erit in vulpt feugiat nulla facilisis utate velit esse molestie consequat</p>
+                        <p>Medical Counselling Committee (MCC) · First slide. PG Counselling for 50% All India Quota seats of all states except</p>
                     </div>
                     </div>
                     <div className="col-md-3 bg-testimonial-cng">
                     <div className="text-center  p-5">
                     <span className="icon"><FontAwesomeIcon icon={faStethoscope} /></span>
                         <h2>Medical Counseling</h2>
-                        <p>Duis autem vel eum iriure dolor in hendr erit in vulpt feugiat nulla facilisis utate velit esse molestie consequat</p>
+                        <p>xample of this was the worldwide eradication of smallpox in 1980, declared by the WHO as the first disease in human history to be</p>
                     </div>
                     </div>
                     <div className="col-md-3 bg-testimonial">
                         <div className="text-center  p-5">
                         <span className="icon"><FontAwesomeIcon icon={faUserMd}/></span>
                         <h2>Qualified Doctors</h2>
-                        <p>Duis autem vel eum iriure dolor in hendr erit in vulpt feugiat nulla facilisis utate velit esse molestie consequat</p>
+                        <p> ealth care systems are organizations established to meet the health needs of targeted populations.</p>
                         </div>
                         
                     </div>
@@ -94,7 +88,7 @@ const Testimonial = () => {
                         <div className="text-center  p-5">
                         <span className="icon"><FontAwesomeIcon icon={faAmbulance}/></span>
                         <h2>Emergency Services</h2>
-                        <p>Duis autem vel eum iriure dolor in hendr erit in vulpt feugiat nulla facilisis utate velit esse molestie consequat</p>
+                        <p>rofessional services are occupations in the service sector requiring special training in the arts or sciences.</p>
                         </div>
                         
                     </div>
