@@ -27,6 +27,9 @@ const Header = () => {
               <NavLink className="nav-style" to="/about">
                 About Us
               </NavLink>
+              <NavLink className="nav-style" to="/testimonial">
+               Testimonial
+              </NavLink>
               <NavLink className="nav-style" to="/services">
                 Services
               </NavLink>

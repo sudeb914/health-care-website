@@ -13,6 +13,7 @@ import SignUp from "./components/SignUp/SignUp";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Details from "./components/Details/Details";
 import NotFound from "./components/NotFound/NotFound";
+import Testimonial from "./components/Testimonial/Testimonial";
 
 function App() {
   return (
@@ -38,6 +39,10 @@ function App() {
 
           <Route path="/services/:id">
             <Details></Details>
+
+          </Route>
+          <Route path="/testimonial">
+            <Testimonial></Testimonial>
 
           </Route>
 
